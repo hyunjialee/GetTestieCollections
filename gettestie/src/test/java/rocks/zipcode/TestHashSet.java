@@ -31,4 +31,14 @@ public class TestHashSet {
     public void testRemove(){
 
     }
+
+    @Test
+    public void testDuplicates(){
+
+    }
+
+    @Test
+    public void testClone(){
+
+    }
 }

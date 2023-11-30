@@ -9,4 +9,14 @@ public class TestLinkedList {
 
         // getFirst, getLast
     }
+
+    @Test
+    public void testFirst(){
+
+    }
+
+    @Test
+    public void testGetLast(){
+
+    }
 }
