@@ -94,4 +94,16 @@ public class TestArrayDeque {
 
         Assert.assertTrue(array.contains(expected));
     }
+    @Test
+    public void testOffer(){
+        ArrayDeque<String> array = new ArrayDeque<>();
+
+        array.add("dog");
+        array.add("cat");
+
+        String expected = "dog";
+        array.offer("dog");
+
+        Assert.assertTrue(array.offer("dog"));
+    }
 }
